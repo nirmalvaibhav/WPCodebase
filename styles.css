@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+    background-color: #173e65;
+    color: #fff;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid white; 
+}
+
+.contact-info, .skills, .languages {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.loader {
+    width: 100%;
+    background-color: #e0e0e0; 
+    border-radius: 25px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 5px;
+}
+
+
+.loader-inner {
+    height: 100%;
+    background-color: rgb(145, 145, 235); 
+    border-radius: 25px;
+    transition: width 0.5s ease-in-out; 
+}
+
+
+.resume-container h1,h2{
+    text-decoration: underline; 
+    font-size: 24px; 
+    color: #ffffff;
+}
+
+.main-content h1{
+    text-decoration: underline; 
+    font-size: 24px; 
+     color: #34495e;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.languages p {
+    margin-bottom: 5px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 40px;
+}
+
+.main-box-header {
+    text-align: center; 
+    background-color: #efe9e9; 
+    padding: 10px; 
+       align-items: center;
+}
+
+
+
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.summary, .experience, .projects, .education {
+    margin-bottom: 30px;
+}
+
+.summary p, .experience p, .projects p, .education p {
+    margin-bottom: 10px;
+}
+
+.job, .project {
+    margin-bottom: 20px;
+}
+
+.job h3, .project h3 {
+    font-size: 20px;
+}
+
+h3 {
+    color: #34495e;
+}
+
